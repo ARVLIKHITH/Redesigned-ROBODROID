@@ -93,4 +93,82 @@ This project introduced me to embedded systems and robotics, and taught me valua
 
 ---
 
-In the second semester, this design was improved further to address the limitations of the first prototype. The upgraded version is documented in Part 2.  
+In the second semester, this design was improved further to address the limitations of the first prototype. 
+
+# Robodroid — Fire Fighting Robot (Second Semester Improvements)  
+
+## Identified Issues in First Prototype  
+In the first semester version, the flame detection system relied on individual flame sensors positioned to the left, right, and front. While the robot was able to detect fire within predefined zones, it was unable to accurately **pinpoint the exact location of the flame**. This resulted in:  
+
+- Limited accuracy in navigation towards the fire.  
+- Possible overshoot or undershoot of the robot’s movement.  
+- Inefficient extinguishing if the fire was not aligned within the predefined detection range.  
+
+---
+
+## Triangulation Method (Second Semester Solution)  
+To solve this, during the second semester we integrated a **triangulation-based detection system** using three flame sensors placed at defined angular offsets. This allowed us to calculate the **position of the flame more precisely** and control the robot’s movement accordingly.  
+
+### Concept  
+- Two sensors at known positions (A and B) detect the flame at angles θ₁ and θ₂.  
+- By applying trigonometry, the height (d) and distance (L) to the flame can be calculated.  
+- This allows the robot to move directly to the detected point, rather than guessing within a predefined zone.
+    
+### Derivations 
+
+From the geometry of the setup:  
+
+tan(θ₁) = d / h₁,     tan(θ₂) = d / h₂  
+
+Equating for d:  
+
+tan(θ₁) · h₁ = tan(θ₂) · h₂  
+
+Thus:  
+
+h₂ = (h₁ · tan(θ₁)) / tan(θ₂)  
+
+The distance from sensor A to the flame point (BC) can then be derived as:  
+
+BC = √(d² + h₂²)  
+
+Alternatively, using a simplified distance formula between the sensors:  
+
+Distance = (L · tan(θ₁)) / (tan(θ₂) + tan(θ₁))  
+
+Where:  
+- L = distance between the two sensors  
+- θ₁, θ₂ = flame detection angles from sensors A and B  
+  
+
+Alternatively, using a simplified distance formula between the sensors:  
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7d9e7423-4e4d-4dce-8844-bd887b608cc1" alt="Robodroid Prototype" width="500"/>
+</p>
+
+## Implementation  
+- The three flame sensors were mounted at fixed angular positions.  
+- The Arduino collected angle data and, using the above formulas, determined the **precise location of the flame**.  
+- The robot’s DC motors were then programmed to move the chassis to this calculated location.  
+- Once in range, the water pump and servo-based nozzle system extinguished the flame efficiently.  
+
+---
+
+## Contributions  
+- **Arnav Bajaj** — Designed and derived the triangulation formulas, and implemented the logic in the Arduino code.  
+- **Likhith Anand** — Responsible for integrating the modified sensor arrangement, wiring, and testing of the prototype.  
+
+---
+
+## Outcomes of Second Semester Version  
+- Robot navigation became **more precise**.  
+- Flame detection was no longer limited to predefined zones.  
+- The extinguishing process was more effective, as the robot aligned itself directly with the flame’s position.  
+
+---
+
+## References  
+- Slide reference for triangulation concept: [Triangulation Method – Slideplayer](https://slideplayer.com/slide/7044900/)  
+- Self-derived formulas and implementation notes by Arnav Bajaj.  
+
