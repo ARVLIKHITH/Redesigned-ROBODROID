@@ -48,7 +48,12 @@ ROBODROID
    - MQ2 gas sensor identifies gas or smoke.  
 
 2. Communication  
-   - On gas detection, the Arduino sends AT commands to the SIM800L module.  
+   - On gas detection, the Arduino sends AT commands to the SIM800L module. The image below shows the message received from the SIM800L under the name Likhith.
+    <p align="center"> 
+     <img width="300" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/9a1581de-eb0f-4f61-8d08-36c58355ffde" />
+</p>
+
+
    - The module sends an SMS and makes a phone call to notify the user.  
 
 3. Action  
