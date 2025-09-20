@@ -13,9 +13,14 @@ This became Robodroid, my very first robotics prototype.
 - Together, we successfully created a working system capable of detecting fire, sending alerts, and extinguishing flames.  
 
 This project introduced me to embedded systems and robotics, and taught me valuable lessons in power regulation, sensor calibration, and the importance of collaboration.  
+
+ROBODROID
+---
+
 <p align="center">
-  <img width="500" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/7fbf0b86-b15a-4936-8327-9096da136ad4" />
+  <img width="600" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/7fbf0b86-b15a-4936-8327-9096da136ad4" />
 </p>
+
 
 ## System Overview  
 
@@ -113,7 +118,10 @@ To solve this, during the second semester we integrated a **triangulation-based 
 - Two sensors at known positions (A and B) detect the flame at angles θ₁ and θ₂.  
 - By applying trigonometry, the height (d) and distance (L) to the flame can be calculated.  
 - This allows the robot to move directly to the detected point, rather than guessing within a predefined zone.
-    
+
+<p align="center">
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/c1e507df-d11d-45a7-b215-57ab67368da6" />
+</p>    
 ### Derivations 
 
 From the geometry of the setup:  
