@@ -154,23 +154,23 @@ To solve this, during the second semester, we integrated a **triangulation-based
 
 From the geometry of the setup:  
 
-tan(θ₁) = d / h₁,     tan(θ₂) = d / h₂  
+```tan(θ₁) = d / h₁,     tan(θ₂) = d / h₂```  
 
 Equating for d:  
 
-tan(θ₁) · h₁ = tan(θ₂) · h₂  
+```tan(θ₁) · h₁ = tan(θ₂) · h₂ ``` 
 
 Thus:  
 
-h₂ = (h₁ · tan(θ₁)) / tan(θ₂)  
+```h₂ = (h₁ · tan(θ₁)) / tan(θ₂)```  
 
 The distance from sensor A to the flame point (BC) can then be derived as:  
 
-BC = √(d² + h₂²)  
+```BC = √(d² + h₂²)```  
 
 Alternatively, using a simplified distance formula between the sensors:  
 
-Distance = (L · tan(θ₁)) / (tan(θ₂) + tan(θ₁))  
+```Distance = (L · tan(θ₁)) / (tan(θ₂) + tan(θ₁))```  
 
 Where:  
 - L = distance between the two sensors  
