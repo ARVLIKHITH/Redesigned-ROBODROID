@@ -53,9 +53,13 @@ ROBODROID
      <img width="300" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/9a1581de-eb0f-4f61-8d08-36c58355ffde" />
 </p>
 
-## Prototype Demo
+<h2 align="center">Prototype Demo</h2>
 
-[![Robodroid Demo](https://img.youtube.com/vi/TP4nRBrAh2s/0.jpg)](https://youtu.be/TP4nRBrAh2s)
+<p align="center">
+  <a href="https://youtu.be/KiAFvgWzrvA">
+    <img src="https://img.youtube.com/vi/KiAFvgWzrvA/0.jpg" alt="Robodroid Demo" width="600"/>
+  </a>
+</p>
 
  - The module sends an SMS and makes a phone call to notify the user.  
 
