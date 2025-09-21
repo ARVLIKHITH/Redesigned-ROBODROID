@@ -53,11 +53,19 @@ ROBODROID
      <img width="300" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/9a1581de-eb0f-4f61-8d08-36c58355ffde" />
 </p>
 
+---
+
 <h2 align="center"> Communication Demo </h2>
 
 <p align="center">
   <a href="https://youtu.be/KiAFvgWzrvA">
     <img src="https://img.youtube.com/vi/KiAFvgWzrvA/0.jpg" alt="Robodroid Demo" width="600"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/1N6KJtFeA10">
+    <img src="https://img.youtube.com/vi/1N6KJtFeA10/0.jpg" alt="Robodroid Demo" width="600"/>
   </a>
 </p>
 
