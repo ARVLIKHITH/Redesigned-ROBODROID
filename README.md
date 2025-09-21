@@ -49,12 +49,14 @@ ROBODROID
 
 2. Communication  
    - On gas detection, the Arduino sends AT commands to the SIM800L module. The image below shows the message received from the SIM800L under the name Likhith.
-    <p align="center"> 
+    <p align="center">  
      <img width="300" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/9a1581de-eb0f-4f61-8d08-36c58355ffde" />
 </p>
+## Prototype Demo
 
+[![Robodroid Demo](https://img.youtube.com/vi/v19kwZ4ReT0/0.jpg)](https://www.youtube.com/watch?v=v19kwZ4ReT0)
 
-   - The module sends an SMS and makes a phone call to notify the user.  
+ - The module sends an SMS and makes a phone call to notify the user.  
 
 3. Action  
    - When fire is detected, the Arduino drives the DC motors to move the robot closer to the fire.  
