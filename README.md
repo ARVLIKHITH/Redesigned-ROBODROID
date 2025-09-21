@@ -1,4 +1,3 @@
-# Redesigned-ROBODROID
 # Robodroid — Fire Fighting Robot (First Semester Prototype)  
 
 ## Story and Background  
