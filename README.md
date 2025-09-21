@@ -52,9 +52,11 @@ ROBODROID
     <p align="center">  
      <img width="300" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/9a1581de-eb0f-4f61-8d08-36c58355ffde" />
 </p>
+
 ## Prototype Demo
 
-[Robodroid Demo]Untitled design (1) (1).mp4
+[▶ Watch Demo Video](./Untitled%20design%20(1)%20(1).mp4)
+
 
  - The module sends an SMS and makes a phone call to notify the user.  
 
