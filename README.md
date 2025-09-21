@@ -74,7 +74,7 @@ ROBODROID
 3. Action  
    - When fire is detected, the Arduino drives the DC motors to move the robot closer to the fire.  
    - The relay activates the water pump, which sprays water through the nozzle.  
-   - The servo motor sweeps the nozzle across an arc to maximize coverage and extinguish the fire.
+   - The servo motor sweeps the nozzle across an arc to maximise coverage and extinguish the fire.
      
 <h2 align="center">Prototype Demo</h2>
 
@@ -104,7 +104,7 @@ ROBODROID
 - GSM Reliability: SMS sending and call functions sometimes failed due to unstable AT command handling. Debugging and delays were added for stability.  
 - Water Pump Current Draw: The initial current surge from the pump caused the Arduino to reset. This was fixed by isolating the pump on a separate relay-controlled supply.  
 - Servo Jitter: The servo motor experienced jittering during idle. Grounding improvements and stable PWM control resolved the issue.  
-- Navigation Tuning: Achieving accurate approach towards the flame required fine adjustments of flame sensor logic.  
+- Navigation Tuning: Achieving an accurate approach towards the flame required fine adjustments of the flame sensor logic.  
 
 ---
 
@@ -119,10 +119,10 @@ ROBODROID
 ## References and Inspiration  
 - Original Inspiration: [YouTube – Fire Fighting Robot Project](https://www.youtube.com/watch?v=v19kwZ4ReT0).  
 - Circuit Diagram Credit: Belongs to the YouTube creator (not my own work).  
-- Hardware Guides: Datasheets for MQ2 sensor, SIM800L module, and servo motor.  
+- Hardware Guides: Datasheets for the MQ2 sensor, the SIM800L module, and the servo motor.  
 - Documentation: Self-prepared presentation and prototype description.  
 
-> Note: This project was inspired by publicly available tutorials, but the modifications (SIM800L integration, regulator design, electronics assembly) and the prototype build were my own work, completed in collaboration with Arnav Bajaj.  
+> Note: Publicly available tutorials inspired this project, but the modifications (SIM800L integration, regulator design, electronics assembly) and the prototype build were my own work, completed in collaboration with Arnav Bajaj.  
 
 ---
 
@@ -140,7 +140,7 @@ In the first semester version, the flame detection system relied on individual f
 ---
 
 ## Triangulation Method (Second Semester Solution)  
-To solve this, during the second semester we integrated a **triangulation-based detection system** using three flame sensors placed at defined angular offsets. This allowed us to calculate the **position of the flame more precisely** and control the robot’s movement accordingly.  
+To solve this, during the second semester, we integrated a **triangulation-based detection system** using three flame sensors placed at defined angular offsets. This allowed us to calculate the **position of the flame more precisely** and control the robot’s movement accordingly.  
 
 ### Concept  
 - Two sensors at known positions (A and B) detect the flame at angles θ₁ and θ₂.  
@@ -205,6 +205,16 @@ Alternatively, using a simplified distance formula between the sensors:
 ---
 
 ## References  
-- Slide reference for triangulation concept: [Triangulation Method – Slideplayer](https://slideplayer.com/slide/7044900/)  
-- Self-derived formulas and implementation notes by Arnav Bajaj.  
+- Slide reference for triangulation concept: [Triangulation Method – Slideplayer](./Fire%20Fighting%20Robot%20Car%20Prototype.pdf)
+- Self-derived formulas and implementation notes by Arnav Bajaj.
+
+## License  
+
+This repository is licensed under the **MIT License**.  
+Please take a look at the [LICENSE](./LICENSE) file for details.  
+
+Note:  
+- The license applies to all code, documentation, and prototype work created in this repository by **Likhith Anand** and **Arnav Bajaj**.  
+- Third-party content (e.g., external circuit diagrams, inspiration videos) remains the property of its respective creators and is excluded from this license.
+
 
