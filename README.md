@@ -55,8 +55,7 @@ ROBODROID
 
 ## Prototype Demo
 
-[▶ Watch Demo Video](./Untitled%20design%20(1)%20(1).mp4)
-
+[![Robodroid Demo](https://img.youtube.com/vi/TP4nRBrAh2s/0.jpg)](https://youtu.be/TP4nRBrAh2s)
 
  - The module sends an SMS and makes a phone call to notify the user.  
 
