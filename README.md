@@ -53,7 +53,7 @@ ROBODROID
      <img width="300" alt="Robodroid Prototype" src="https://github.com/user-attachments/assets/9a1581de-eb0f-4f61-8d08-36c58355ffde" />
 </p>
 
-<h2 align="center">Prototype Demo</h2>
+<h2 align="center"> Communication Demo </h2>
 
 <p align="center">
   <a href="https://youtu.be/KiAFvgWzrvA">
@@ -66,7 +66,15 @@ ROBODROID
 3. Action  
    - When fire is detected, the Arduino drives the DC motors to move the robot closer to the fire.  
    - The relay activates the water pump, which sprays water through the nozzle.  
-   - The servo motor sweeps the nozzle across an arc to maximize coverage and extinguish the fire.  
+   - The servo motor sweeps the nozzle across an arc to maximize coverage and extinguish the fire.
+     
+<h2 align="center">Prototype Demo</h2>
+
+<p align="center">
+  <a href="https://youtu.be/RUrlLozYwqs">
+    <img src="https://img.youtube.com/vi/RUrlLozYwqs/0.jpg" alt="Robodroid Demo" width="600"/>
+  </a>
+</p>
 
 ---
 
