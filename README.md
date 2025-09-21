@@ -148,7 +148,8 @@ To solve this, during the second semester, we integrated a **triangulation-based
 
 <p align="center">
   <img width="700" alt="image" src="https://github.com/user-attachments/assets/c1e507df-d11d-45a7-b215-57ab67368da6" />
-</p>    
+</p>   
+
 ### Derivations 
 
 From the geometry of the setup:  
