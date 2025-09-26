@@ -92,8 +92,8 @@ ROBODROID
 ---
 
 ## Prototype Media  
-- [Slides (PPT)](./Fire%20Fighting%20Robot%20Car.pptx)  
-- [Arduino Code](./1Fire_Fighting_Bot-1.text)  
+- [Slides](Fire%20Fighting%20Robot%20Car%20Prototype.pdf)
+- [Arduino Code](Fire_Fighting_Bot.ino)
 - [Inspiration video](https://www.youtube.com/watch?v=v19kwZ4ReT0)  
 
 ---
@@ -189,6 +189,11 @@ Alternatively, using a simplified distance formula between the sensors:
 - The robot’s DC motors were then programmed to move the chassis to this calculated location.  
 - Once in range, the water pump and servo-based nozzle system extinguished the flame efficiently.  
 
+---
+ <h2>Source Code</h2>
+  <a href="https://github.com/ARVLIKHITH/Redesigned-ROBODROID/blob/cedc4c70033ded9adb3d74da09e30fded6b64fe3/Triangulation.ino">
+    Triangulation.ino
+  
 ---
 
 ## Contributions  
